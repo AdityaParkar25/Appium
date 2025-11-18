@@ -1,0 +1,5 @@
+C:\Users\ragep\AppData\Local\Android\Sdk
+
+%ANDROID_HOME%\platform-tools
+%ANDROID_HOME%\tools
+%ANDROID_HOME%\tools\bin

@@ -1,0 +1,88 @@
+20:08:23 From Trainings to Everyone:
+	Good Evening Everyone
+20:08:25 From Aditya Parkar to Hosts and panelists:
+	Good evening Sir
+20:08:50 From Aditya Parkar to Hosts and panelists:
+	No
+20:09:59 From Aditya Parkar to Hosts and panelists:
+	Get and Post
+20:11:30 From Aditya Parkar to Hosts and panelists:
+	pojo class
+20:14:12 From Aditya Parkar to Hosts and panelists:
+	verifying process
+20:14:21 From Aditya Parkar to Hosts and panelists:
+	person details
+20:15:13 From Aditya Parkar to Hosts and panelists:
+	Its a process of verifying whether the entered data matches with the actual data
+20:17:14 From Aditya Parkar to Hosts and panelists:
+	face
+20:20:46 From Aditya Parkar to Hosts and panelists:
+	No
+20:21:11 From Aditya Parkar to Hosts and panelists:
+	yes
+20:28:53 From Aditya Parkar to Hosts and panelists:
+	location
+20:47:38 From Aditya Parkar to Hosts and panelists:
+	yes
+20:49:24 From Aditya Parkar to Hosts and panelists:
+	type of key
+21:09:44 From Aditya Parkar to Hosts and panelists:
+	Sir in real projects the token will be mentioned in the requirements itself?
+21:10:14 From Aditya Parkar to Hosts and panelists:
+	Ok thank you
+21:15:42 From Aditya Parkar to Hosts and panelists:
+	Sir we can check ram memory usage from task manager right?
+21:18:03 From Aditya Parkar to Hosts and panelists:
+	yes
+21:18:50 From Aditya Parkar to Hosts and panelists:
+	done
+21:20:01 From Aditya Parkar to Hosts and panelists:
+	done
+21:20:58 From Aditya Parkar to Hosts and panelists:
+	yes
+21:22:44 From Aditya Parkar to Hosts and panelists:
+	1.3gb
+21:24:31 From Aditya Parkar to Hosts and panelists:
+	yes sir
+21:25:47 From Aditya Parkar to Hosts and panelists:
+	yes
+21:27:27 From Aditya Parkar to Hosts and panelists:
+	yes
+21:28:59 From Trainings to Everyone:
+	nitingupta.gupta46@gmail.com
+21:34:46 From Trainings to Everyone:
+	npm install -g appium
+21:36:12 From Aditya Parkar to Hosts and panelists:
+	yes
+21:38:08 From Aditya Parkar to Hosts and panelists:
+	appium download complete
+21:39:23 From Aditya Parkar to Hosts and panelists:
+	yes
+21:42:08 From Trainings to Everyone:
+	sudo
+21:51:00 From Trainings to Everyone:
+	where appium
+21:55:47 From Aditya Parkar to Hosts and panelists:
+	[Appium] Welcome to Appium v3.1.0 I got this message
+21:56:45 From Aditya Parkar to Hosts and panelists:
+	I also got 2 message - No drivers installed and no plugins installed
+22:15:07 From Trainings to Everyone:
+	appium driver lis
+22:15:14 From Trainings to Everyone:
+	appium driver list
+22:15:57 From Trainings to Everyone:
+	appium driver install uiautomator2
+22:17:49 From Aditya Parkar to Hosts and panelists:
+	its installed
+22:21:17 From Aditya Parkar to Hosts and panelists:
+	yes
+22:21:54 From Trainings to Everyone:
+	https://github.com/appium/appium-inspector/releases/tag/v2025.8.2
+22:23:09 From Aditya Parkar to Hosts and panelists:
+	yes
+22:23:36 From Trainings to Everyone:
+	Appium-Inspector-2025.8.2-win.exe
+22:25:20 From Aditya Parkar to Hosts and panelists:
+	yes
+22:26:04 From Aditya Parkar to Hosts and panelists:
+	done sir

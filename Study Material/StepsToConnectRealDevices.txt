@@ -1,0 +1,19 @@
+Below Steps to run appium scripts on realDevices
+
+1. Need to enabled Developer Option in devices.
+2. for step 1 get help from google
+		a. settings > about device > version > tab 7 -8 times on Version No.
+			this makes developer option enabled.
+			to ensure developer options enabled 
+			go to system and update option to verify.
+		
+		b. 	Setting > system & Update > Developer Option > enable Disable permission Monitoring
+		c. 	Setting > system & Update > Developer Option > enable Disable child process restrictions
+		d.  Setting > system & Update > Developer Option > enable Force allow apps on external
+		e.  open cmd/terminal and hit - adb devices
+				in returns UDID number of real devices.
+		
+
+Sir I am getting an error while running the lock unlock device code
+
+Auth: Sir during payment in certain websites, when we are redirected to a different dedicated payment portal, does that come under this same process?

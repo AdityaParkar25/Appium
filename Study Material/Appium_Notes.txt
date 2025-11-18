@@ -1,0 +1,243 @@
+
+ 	What is Authentication in an API?
+	Authentication simply means “proving who you are” before you’re allowed to access something.
+	When two systems communicate through an API, the receiving system wants to make sure:
+	“Is this request really coming from someone who’s allowed to do this?”
+	That process — of checking identity — is called Authentication.
+
+
+Real-life analogy:
+	Imagine you’re trying to enter a secure office building.
+	At the front desk:
+	The guard asks for your ID card (to verify who you are).
+	If your name is on the approved list, you’re allowed in.
+	If not, access is denied.
+	That’s authentication — proving your identity before entry.
+	In APIs, it works the same way:
+	The system checks your “digital ID” before letting you use its data or services.
+
+
+
+
+
+first download, android studio
+Google > Android Studio > download Android Studio Meerkat Feature Drop
+> select check box  > click on download
+
+
+Open Command prompt
+1. node.js download
+2. node -v
+
+3. now to download Appium from cmd
+	a. npm install -g appium
+	b. where appium
+	c. appium to start appium server.
+	d. stop control+c
+	e. appium driver list
+	f. appium driver install uiautomator2
+
+4. go to google and download appium inspector.
+	a. hit this URL https://github.com/appium/appium-inspector/releases/tag/v2025.8.2
+	b. scroll down Appium-Inspector-2025.8.2-win.exe
+
+5. Start install Android Studio
+ 	a. click on next
+ 	b. click on next
+ 	c. click on next
+ 	d. click on install (wait for next button get enabled)
+ 	e. click on next then click on finish
+ 	f. help improve Android studio screen coming... click on dont send
+ 	g. Click on Next
+ 	h. go with standard> click on next
+ 	i. getting verify setting window > click on next
+ 	j. License Agreement window > accept license > next
+ 	k. next window may take hour to complete. 
+
+
+ Then starts explaining what is Mobile testing.
+ 
+ What is Mobile testing ?
+Mobile testing refers to test the mobile application (apps - facebook,icici, amazon, flipkart) on various devices (android devices, IOS devices) and platform android and iOS to ensure functionality working as expected to provide smooth and bug free experience (USER).
+
+
+Testing Conduct on mobile
+   1. Functional
+   2. Usability | compatibility
+   3. Accessibility
+   4. Performance
+   5. Security
+   6. Configuration  | Interupts testing
+   7. Hardware testing.
+
+
+   Types of mobile testing
+   1. Manually
+   2. Automation.
+
+
+1. Type of Application
+   a. Native apps
+   b. Mobile WebApps
+   c. Hybrid Application
+   d. Progressive Web Apps (PWAs)
+
+
+Native apps
+	What: Built specifically for one platform (iPhone/iPad = iOS, or Android).
+	Good for: Best speed, looks, and access to phone features (camera, GPS).
+	Downside: Need to build two versions if you want iOS + Android.
+
+Web apps
+	What: A website that works on your phone (runs inside the browser).
+	Good for: Works everywhere instantly — no download.
+	Downside: Limited access to device features and offline use.
+
+Hybrid apps
+	What: Web apps wrapped inside a native container so they can be installed like an app.
+	Analogy: A web store put inside a mall kiosk — easier to deploy, but not as polished as a custom shop.
+	Good for: Faster to build for multiple platforms.
+	Downside: Can be slower or less “native” feeling.
+	
+	Developers build the app with web languages (HTML, CSS, JavaScript) — the same tools used to build websites.
+
+	That web code is then wrapped by a small native program (the shell) so the app can be installed on phones.
+
+
+Progressive Web Apps (PWAs)
+	What: Advanced web apps that can be installed to the home screen and work offline.
+	Analogy: A website that behaves like a light-weight app.
+	Good for: No app-store upload, fast to update, reaches everyone.
+	Downside: Still limited access to some phone features on some devices.
+
+Cross-platform (React Native, Flutter, etc.)
+	What: One codebase that builds native-like apps for iOS and Android.
+	Analogy: A tailored suit pattern that can be adjusted to fit two people well.
+	Good for: Good balance of speed, look, and development cost.
+	Downside: Some platform-specific features can be trickier.	
+
+
+How to create project in android studio
+1. Click on newProject
+2. Select empty Activity
+3. Click on finish with default setting to create project
+4. once project created, on right side 3rd option > click on device manager
+5. Click on play button next to vitural type
+6. configure envronment variable of android studio
+	a. go to drive C
+	b. user folder (login)
+	c. App data (if not visible that means folder is hidden, check show > hidden items option under view to visible)
+	d. local > android > sdk (copy this path) paste in Notepad.
+	e. go to this PC > right click on it 
+	f. click on show more options
+	g. click on properties
+	h. go to Advanced system setting > Environment variable 
+	i. Create system variable - ANDROID_HOME and set the path
+	J. look for path variable > Edit it
+	k. configure new below variables
+			1. %ANDROID_HOME%\platform-tools
+			2. %ANDROID_HOME%\tools
+			3. %ANDROID_HOME%\tools\bin 
+	l.save it and go to sdk folder > open cmd on this location
+	m. adb devices
+
+
+{
+  "platformName": "Android",
+  "appium:automationName": "uiautomator2",
+  "appium:deviceName": "pixel_9_pro_xl",
+  "appium:udid": "emulator-5554"
+}
+
+TestBed = TestEnvironment
+HardWare
+Software - Operating system, browser, databases and any devices comes under support of network
+network configuration
+virtual devices - emulator/ simulator - saucelab / browserstack
+
+devicename
+device OS
+device UDID
+supply path of apk
+
+DesiredCapabilities
+
+below dependencies to be copied for appium
+1. 
+<dependency>
+    <groupId>io.appium</groupId>
+    <artifactId>java-client</artifactId>
+    <version>10.0.0</version>
+</dependency>
+
+2. 
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.10.2</version>
+    <scope>test</scope>
+</dependency>
+
+3. optional (Webdriver)
+<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.36.0</version>
+</dependency>
+
+
+
+
+
+
+To get the UDID follow below steps (window laptop)
+pre-condition of below steps
+1. go to android studio or connect real devices in laptop or system
+2. ensure devices or emulator up and running
+
+Open terminal / cmd
+1. go to sdk location of android and look for platform-tools folder
+2. open that folder then click on address of the folder (click on top) then type cmd and hit enter
+3. this will open cmd at same location.
+4. adb devices in response return UDID of emulator or realdevices
+
+2. start Appium server.
+1. open cmd
+2. appium
+
+
+in appium version 1, we use desiredcapabilities clss to create device configuration.
+Appium v 2.0
+UiAutomator2Options
+
+Locator strategy in Appium
+total of 5 way to get the element address on application layout
+1. Accessibility ID
+2. ID --> resource-id
+3. class name
+4. xpath
+5. ui automator 2
+
+
+
+WebDriver extends Javascript 
+
+
+
+AppiumDriver extends RemoteDriver implements webdriver
+
+X: 665
+Y: 2148
+
+
+
+
+
+
+
+
+
+
+
+
