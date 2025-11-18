@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-16T16:33:39 IST" name="Default suite" finished-at="2025-11-16T16:34:06 IST" duration-ms="27244">
+    <groups>
+    </groups>
+    <test started-at="2025-11-16T16:33:39 IST" name="Default test" finished-at="2025-11-16T16:34:06 IST" duration-ms="27244">
+      <class name="SA_Assignments.UninstallAndInstallApp">
+        <test-method signature="testApplicationState()[pri:0, instance:SA_Assignments.UninstallAndInstallApp@3c19aaa5]" started-at="2025-11-16T16:33:39 IST" name="testApplicationState" finished-at="2025-11-16T16:34:06 IST" duration-ms="27125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApplicationState -->
+      </class> <!-- SA_Assignments.UninstallAndInstallApp -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
